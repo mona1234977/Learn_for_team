@@ -1,0 +1,667 @@
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: new group: name=ubuntu, GID=1000
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'adm'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'dialout'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'cdrom'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'floppy'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'sudo'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'audio'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'dip'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'video'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'plugdev'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'netdev'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to group 'lxd'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'adm'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'dialout'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'cdrom'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'floppy'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'sudo'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'audio'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'dip'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'video'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'plugdev'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'netdev'
+Jul 27 07:06:45 ip-172-31-25-141 useradd[453]: add 'ubuntu' to shadow group 'lxd'
+Jul 27 07:06:45 ip-172-31-25-141 passwd[462]: password for 'ubuntu' changed by 'root'
+Jul 27 07:06:45 ip-172-31-25-141 systemd-logind[500]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 27 07:06:45 ip-172-31-25-141 systemd-logind[500]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jul 27 07:06:45 ip-172-31-25-141 systemd-logind[500]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jul 27 07:06:45 ip-172-31-25-141 systemd-logind[500]: New seat seat0.
+Jul 27 07:06:45 ip-172-31-25-141 sshd[672]: Server listening on 0.0.0.0 port 22.
+Jul 27 07:06:45 ip-172-31-25-141 sshd[672]: Server listening on :: port 22.
+Jul 27 07:06:48 ip-172-31-25-141 useradd[974]: new user: name=lxd, UID=998, GID=100, home=/var/snap/lxd/common/lxd, shell=/bin/false, from=none
+Jul 27 07:07:24 ip-172-31-25-141 ec2-instance-connect[1395]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:TvQZt1AsVe8GsPjhNNk42ZxRs80WQ4sGgPdjkiiW1fE
+Jul 27 07:07:24 ip-172-31-25-141 ec2-instance-connect[1427]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:TvQZt1AsVe8GsPjhNNk42ZxRs80WQ4sGgPdjkiiW1fE, request-id: fcd7a428-fadc-48b6-aa87-4e5a4a4ab591, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 07:07:24 ip-172-31-25-141 ec2-instance-connect[1570]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:TvQZt1AsVe8GsPjhNNk42ZxRs80WQ4sGgPdjkiiW1fE
+Jul 27 07:07:24 ip-172-31-25-141 ec2-instance-connect[1602]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:TvQZt1AsVe8GsPjhNNk42ZxRs80WQ4sGgPdjkiiW1fE, request-id: fcd7a428-fadc-48b6-aa87-4e5a4a4ab591, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 07:07:24 ip-172-31-25-141 sshd[1253]: Accepted publickey for ubuntu from 18.206.107.24 port 10716 ssh2: RSA SHA256:TvQZt1AsVe8GsPjhNNk42ZxRs80WQ4sGgPdjkiiW1fE
+Jul 27 07:07:24 ip-172-31-25-141 sshd[1253]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 07:07:24 ip-172-31-25-141 systemd-logind[500]: New session 1 of user ubuntu.
+Jul 27 07:07:24 ip-172-31-25-141 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jul 27 07:10:18 ip-172-31-25-141 sshd[1746]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:WKODT8XT85JaAGhfpLsd7lIBeJuV+381WRmB260bxZc failed, status 22
+Jul 27 07:10:20 ip-172-31-25-141 sshd[1746]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20347 [preauth]
+Jul 27 07:10:51 ip-172-31-25-141 sshd[1762]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:WKODT8XT85JaAGhfpLsd7lIBeJuV+381WRmB260bxZc failed, status 22
+Jul 27 07:10:55 ip-172-31-25-141 sshd[1762]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20356 [preauth]
+Jul 27 07:12:51 ip-172-31-25-141 sshd[1782]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:WKODT8XT85JaAGhfpLsd7lIBeJuV+381WRmB260bxZc failed, status 22
+Jul 27 07:12:52 ip-172-31-25-141 sshd[1782]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20380 [preauth]
+Jul 27 07:13:54 ip-172-31-25-141 sshd[1799]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20397 [preauth]
+Jul 27 07:14:02 ip-172-31-25-141 sshd[1802]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 07:14:14 ip-172-31-25-141 sshd[1803]: Unable to negotiate with 141.98.10.27 port 44654: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 07:14:19 ip-172-31-25-141 sshd[1805]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:WKODT8XT85JaAGhfpLsd7lIBeJuV+381WRmB260bxZc failed, status 22
+Jul 27 07:14:24 ip-172-31-25-141 sshd[1805]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20399 [preauth]
+Jul 27 07:14:25 ip-172-31-25-141 sshd[1821]: Unable to negotiate with 141.98.10.27 port 44696: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 07:15:17 ip-172-31-25-141 sshd[1824]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:WKODT8XT85JaAGhfpLsd7lIBeJuV+381WRmB260bxZc failed, status 22
+Jul 27 07:15:19 ip-172-31-25-141 sshd[1824]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20401 [preauth]
+Jul 27 07:16:53 ip-172-31-25-141 sshd[1841]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:1VKGc3hho7zPSPjCzst8BZD5UHuxAs1wUb+EZ1/5I/I failed, status 22
+Jul 27 07:16:55 ip-172-31-25-141 sshd[1841]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20444 [preauth]
+Jul 27 07:17:01 ip-172-31-25-141 CRON[1858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:17:01 ip-172-31-25-141 CRON[1858]: pam_unix(cron:session): session closed for user root
+Jul 27 07:17:51 ip-172-31-25-141 sshd[1868]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:WKODT8XT85JaAGhfpLsd7lIBeJuV+381WRmB260bxZc failed, status 22
+Jul 27 07:17:53 ip-172-31-25-141 sshd[1868]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20470 [preauth]
+Jul 27 07:18:16 ip-172-31-25-141 sshd[1886]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:1VKGc3hho7zPSPjCzst8BZD5UHuxAs1wUb+EZ1/5I/I failed, status 22
+Jul 27 07:18:18 ip-172-31-25-141 sshd[1886]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20472 [preauth]
+Jul 27 07:18:34 ip-172-31-25-141 sshd[1902]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 07:18:54 ip-172-31-25-141 sshd[1903]: Invalid user sudo from 27.61.136.226 port 20477
+Jul 27 07:18:56 ip-172-31-25-141 sshd[1903]: Connection closed by invalid user sudo 27.61.136.226 port 20477 [preauth]
+Jul 27 07:19:05 ip-172-31-25-141 sshd[1905]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:1VKGc3hho7zPSPjCzst8BZD5UHuxAs1wUb+EZ1/5I/I failed, status 22
+Jul 27 07:19:09 ip-172-31-25-141 sshd[1905]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20483 [preauth]
+Jul 27 07:19:16 ip-172-31-25-141 sshd[1922]: Unable to negotiate with 141.98.10.56 port 35204: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 07:19:43 ip-172-31-25-141 sshd[1924]: Unable to negotiate with 141.98.10.56 port 34806: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 07:21:04 ip-172-31-25-141 sshd[1927]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:Hf0X6owucs2TURaOXDtU0HRrRg2rGEShh7X0wZYoJg0 failed, status 22
+Jul 27 07:21:07 ip-172-31-25-141 sshd[1927]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20490 [preauth]
+Jul 27 07:21:55 ip-172-31-25-141 sshd[1966]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:Hf0X6owucs2TURaOXDtU0HRrRg2rGEShh7X0wZYoJg0 failed, status 22
+Jul 27 07:21:59 ip-172-31-25-141 sshd[1966]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20498 [preauth]
+Jul 27 07:22:57 ip-172-31-25-141 sshd[1984]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:Hf0X6owucs2TURaOXDtU0HRrRg2rGEShh7X0wZYoJg0 failed, status 22
+Jul 27 07:23:02 ip-172-31-25-141 sshd[1984]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20519 [preauth]
+Jul 27 07:24:35 ip-172-31-25-141 sshd[2002]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20577 [preauth]
+Jul 27 07:25:10 ip-172-31-25-141 sshd[2004]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:Hf0X6owucs2TURaOXDtU0HRrRg2rGEShh7X0wZYoJg0 failed, status 22
+Jul 27 07:26:17 ip-172-31-25-141 sshd[2022]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 07:26:22 ip-172-31-25-141 sshd[2023]: Unable to negotiate with 199.195.248.154 port 51714: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 07:26:40 ip-172-31-25-141 sshd[2025]: Unable to negotiate with 199.195.248.154 port 42028: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 07:28:57 ip-172-31-25-141 sshd[2030]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:Hf0X6owucs2TURaOXDtU0HRrRg2rGEShh7X0wZYoJg0 failed, status 22
+Jul 27 07:28:59 ip-172-31-25-141 sshd[2030]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20644 [preauth]
+Jul 27 07:31:33 ip-172-31-25-141 sshd[2050]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20674 [preauth]
+Jul 27 07:32:41 ip-172-31-25-141 sshd[2053]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 07:32:43 ip-172-31-25-141 sshd[2053]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20676 [preauth]
+Jul 27 07:33:37 ip-172-31-25-141 sshd[2071]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 07:33:39 ip-172-31-25-141 sshd[2071]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20681 [preauth]
+Jul 27 07:34:09 ip-172-31-25-141 ec2-instance-connect[2223]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:if0t0VzyGUHnco1s4xUNGdkEGf4hTF3AP4SGSDogbmQ
+Jul 27 07:34:09 ip-172-31-25-141 ec2-instance-connect[2255]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:if0t0VzyGUHnco1s4xUNGdkEGf4hTF3AP4SGSDogbmQ, request-id: d8c78e1a-a9b6-4734-ada5-4ac10e554456, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 07:34:10 ip-172-31-25-141 ec2-instance-connect[2398]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:if0t0VzyGUHnco1s4xUNGdkEGf4hTF3AP4SGSDogbmQ
+Jul 27 07:34:10 ip-172-31-25-141 ec2-instance-connect[2430]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:if0t0VzyGUHnco1s4xUNGdkEGf4hTF3AP4SGSDogbmQ, request-id: d8c78e1a-a9b6-4734-ada5-4ac10e554456, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 07:34:10 ip-172-31-25-141 sshd[2088]: Accepted publickey for ubuntu from 18.206.107.24 port 13176 ssh2: RSA SHA256:if0t0VzyGUHnco1s4xUNGdkEGf4hTF3AP4SGSDogbmQ
+Jul 27 07:34:10 ip-172-31-25-141 sshd[2088]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 07:34:10 ip-172-31-25-141 systemd-logind[500]: New session 4 of user ubuntu.
+Jul 27 07:37:00 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Jul 27 07:37:00 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:37:10 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:37:36 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install nodejs
+Jul 27 07:37:36 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:38:10 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:38:35 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install npm
+Jul 27 07:38:35 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:39:39 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:42:34 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jul 27 07:42:34 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:42:34 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:43:15 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+Jul 27 07:43:15 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:43:15 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:43:31 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jul 27 07:43:31 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:43:32 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:43:55 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install -y mongodb-org
+Jul 27 07:43:55 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:44:14 ip-172-31-25-141 useradd[25375]: new user: name=mongodb, UID=113, GID=65534, home=/home/mongodb, shell=/usr/sbin/nologin, from=/dev/pts/2
+Jul 27 07:44:14 ip-172-31-25-141 usermod[25383]: change user 'mongodb' password
+Jul 27 07:44:14 ip-172-31-25-141 chage[25390]: changed password expiry for mongodb
+Jul 27 07:44:14 ip-172-31-25-141 groupadd[25395]: group added to /etc/group: name=mongodb, GID=119
+Jul 27 07:44:14 ip-172-31-25-141 groupadd[25395]: group added to /etc/gshadow: name=mongodb
+Jul 27 07:44:14 ip-172-31-25-141 groupadd[25395]: new group: name=mongodb, GID=119
+Jul 27 07:44:14 ip-172-31-25-141 gpasswd[25402]: user mongodb added by root to group mongodb
+Jul 27 07:44:17 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:44:36 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install -y mongodb-orgsudo systemctl start mongod
+Jul 27 07:44:36 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:44:36 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:44:39 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 07:44:39 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 07:44:39 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 08:17:01 ip-172-31-25-141 CRON[25805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:17:02 ip-172-31-25-141 CRON[25805]: pam_unix(cron:session): session closed for user root
+Jul 27 08:30:53 ip-172-31-25-141 sshd[25822]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 08:35:03 ip-172-31-25-141 ec2-instance-connect[25962]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:Zo9kEZoU+FhDiynoJQVtbpfy7dhWhYe21rthpVQ/d5w
+Jul 27 08:35:03 ip-172-31-25-141 ec2-instance-connect[25994]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:Zo9kEZoU+FhDiynoJQVtbpfy7dhWhYe21rthpVQ/d5w, request-id: bc02d2fa-cb4b-4986-9c3c-f2bd4dacd810, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 08:35:03 ip-172-31-25-141 ec2-instance-connect[26137]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:Zo9kEZoU+FhDiynoJQVtbpfy7dhWhYe21rthpVQ/d5w
+Jul 27 08:35:03 ip-172-31-25-141 ec2-instance-connect[26169]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:Zo9kEZoU+FhDiynoJQVtbpfy7dhWhYe21rthpVQ/d5w, request-id: bc02d2fa-cb4b-4986-9c3c-f2bd4dacd810, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 08:35:03 ip-172-31-25-141 sshd[25827]: Accepted publickey for ubuntu from 18.206.107.24 port 12183 ssh2: RSA SHA256:Zo9kEZoU+FhDiynoJQVtbpfy7dhWhYe21rthpVQ/d5w
+Jul 27 08:35:03 ip-172-31-25-141 sshd[25827]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 08:35:03 ip-172-31-25-141 systemd-logind[500]: New session 6 of user ubuntu.
+Jul 27 08:40:20 ip-172-31-25-141 sshd[26401]: Invalid user pi from 108.174.125.218 port 55868
+Jul 27 08:40:20 ip-172-31-25-141 sshd[26402]: Invalid user pi from 108.174.125.218 port 55872
+Jul 27 08:40:20 ip-172-31-25-141 sshd[26401]: Connection closed by invalid user pi 108.174.125.218 port 55868 [preauth]
+Jul 27 08:40:20 ip-172-31-25-141 sshd[26402]: Connection closed by invalid user pi 108.174.125.218 port 55872 [preauth]
+Jul 27 08:42:44 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install nginx
+Jul 27 08:42:44 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 08:42:52 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 08:51:11 ip-172-31-25-141 sshd[26941]: Received disconnect from 112.64.33.38 port 35856:11: Bye Bye [preauth]
+Jul 27 08:51:11 ip-172-31-25-141 sshd[26941]: Disconnected from authenticating user root 112.64.33.38 port 35856 [preauth]
+Jul 27 08:55:21 ip-172-31-25-141 sshd[26948]: Received disconnect from 178.128.84.92 port 59642:11: Bye Bye [preauth]
+Jul 27 08:55:21 ip-172-31-25-141 sshd[26948]: Disconnected from authenticating user root 178.128.84.92 port 59642 [preauth]
+Jul 27 08:55:46 ip-172-31-25-141 sshd[26951]: Received disconnect from 139.155.50.69 port 53012:11: Bye Bye [preauth]
+Jul 27 08:55:46 ip-172-31-25-141 sshd[26951]: Disconnected from authenticating user root 139.155.50.69 port 53012 [preauth]
+Jul 27 09:09:33 ip-172-31-25-141 sshd[1253]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 09:09:33 ip-172-31-25-141 systemd-logind[500]: Session 1 logged out. Waiting for processes to exit.
+Jul 27 09:09:33 ip-172-31-25-141 systemd-logind[500]: Removed session 1.
+Jul 27 09:17:01 ip-172-31-25-141 CRON[26993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:17:01 ip-172-31-25-141 CRON[26993]: pam_unix(cron:session): session closed for user root
+Jul 27 09:28:33 ip-172-31-25-141 ec2-instance-connect[27144]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:7K6yuQfyAq/I2GEE5lWv8Qj4P9irtw9PQuWuoo2nTC0
+Jul 27 09:28:33 ip-172-31-25-141 ec2-instance-connect[27176]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:7K6yuQfyAq/I2GEE5lWv8Qj4P9irtw9PQuWuoo2nTC0, request-id: 2c1223c3-4934-4839-9872-d108fdafdb17, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 09:28:34 ip-172-31-25-141 ec2-instance-connect[27319]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:7K6yuQfyAq/I2GEE5lWv8Qj4P9irtw9PQuWuoo2nTC0
+Jul 27 09:28:34 ip-172-31-25-141 ec2-instance-connect[27351]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:7K6yuQfyAq/I2GEE5lWv8Qj4P9irtw9PQuWuoo2nTC0, request-id: 2c1223c3-4934-4839-9872-d108fdafdb17, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 09:28:34 ip-172-31-25-141 sshd[27009]: Accepted publickey for ubuntu from 18.206.107.24 port 19013 ssh2: RSA SHA256:7K6yuQfyAq/I2GEE5lWv8Qj4P9irtw9PQuWuoo2nTC0
+Jul 27 09:28:34 ip-172-31-25-141 sshd[27009]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 09:28:34 ip-172-31-25-141 systemd-logind[500]: New session 8 of user ubuntu.
+Jul 27 09:32:56 ip-172-31-25-141 sshd[27529]: Invalid user tsminst1 from 106.13.123.239 port 55490
+Jul 27 09:32:57 ip-172-31-25-141 sshd[27529]: Received disconnect from 106.13.123.239 port 55490:11: Bye Bye [preauth]
+Jul 27 09:32:57 ip-172-31-25-141 sshd[27529]: Disconnected from invalid user tsminst1 106.13.123.239 port 55490 [preauth]
+Jul 27 09:33:01 ip-172-31-25-141 CRON[27531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:33:01 ip-172-31-25-141 CRON[27531]: pam_unix(cron:session): session closed for user root
+Jul 27 09:34:52 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mongod --port 27017 --dbpath /var/lib/mongodb
+Jul 27 09:34:52 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:34:52 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:34:58 ip-172-31-25-141 sshd[27447]: Received disconnect from 18.206.107.24 port 19013:11: Bye
+Jul 27 09:34:58 ip-172-31-25-141 sshd[27447]: Disconnected from user ubuntu 18.206.107.24 port 19013
+Jul 27 09:34:58 ip-172-31-25-141 sshd[27009]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 09:34:58 ip-172-31-25-141 systemd-logind[500]: Session 8 logged out. Waiting for processes to exit.
+Jul 27 09:34:58 ip-172-31-25-141 systemd-logind[500]: Removed session 8.
+Jul 27 09:35:07 ip-172-31-25-141 ec2-instance-connect[27704]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:PU1FzuA0ksLz5FM5ew5F86qtkqUa7j3OLtimbsBM89A
+Jul 27 09:35:07 ip-172-31-25-141 ec2-instance-connect[27736]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:PU1FzuA0ksLz5FM5ew5F86qtkqUa7j3OLtimbsBM89A, request-id: 1c901376-abcd-4c11-833b-17f49ebc9384, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 09:35:08 ip-172-31-25-141 ec2-instance-connect[27879]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:PU1FzuA0ksLz5FM5ew5F86qtkqUa7j3OLtimbsBM89A
+Jul 27 09:35:08 ip-172-31-25-141 ec2-instance-connect[27911]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:PU1FzuA0ksLz5FM5ew5F86qtkqUa7j3OLtimbsBM89A, request-id: 1c901376-abcd-4c11-833b-17f49ebc9384, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 09:35:08 ip-172-31-25-141 sshd[27569]: Accepted publickey for ubuntu from 18.206.107.24 port 31851 ssh2: RSA SHA256:PU1FzuA0ksLz5FM5ew5F86qtkqUa7j3OLtimbsBM89A
+Jul 27 09:35:08 ip-172-31-25-141 sshd[27569]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 09:35:08 ip-172-31-25-141 systemd-logind[500]: New session 10 of user ubuntu.
+Jul 27 09:35:47 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jul 27 09:35:47 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:35:49 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:36:08 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:36:09 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:36:09 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:36:33 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:36:33 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:36:33 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:36:35 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable mongod
+Jul 27 09:36:35 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:36:35 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:37:00 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl stop mongod
+Jul 27 09:37:00 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:37:01 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:37:08 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart mongod
+Jul 27 09:37:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:37:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:37:37 ip-172-31-25-141 sshd[28494]: Received disconnect from 35.247.184.181 port 38828:11: Bye Bye [preauth]
+Jul 27 09:37:37 ip-172-31-25-141 sshd[28494]: Disconnected from authenticating user root 35.247.184.181 port 38828 [preauth]
+Jul 27 09:37:46 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 09:37:46 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:37:46 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:39:07 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl mongod
+Jul 27 09:39:07 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:39:07 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:39:37 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 09:39:37 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:39:37 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:39:38 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:39:38 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:39:38 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:40:05 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 09:40:05 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:40:05 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:40:08 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 09:40:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:40:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:40:11 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:40:11 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:40:11 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:40:43 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl stop mongod
+Jul 27 09:40:43 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:40:43 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:40:47 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:40:47 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:40:47 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:41:08 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl stop mongod
+Jul 27 09:41:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:41:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:41:19 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable mongod
+Jul 27 09:41:19 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:41:20 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:41:26 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:41:26 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:41:26 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:41:48 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:41:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:41:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:41:49 ip-172-31-25-141 sshd[28660]: Invalid user erp from 180.76.185.183 port 44058
+Jul 27 09:41:49 ip-172-31-25-141 sshd[28660]: Received disconnect from 180.76.185.183 port 44058:11: Bye Bye [preauth]
+Jul 27 09:41:49 ip-172-31-25-141 sshd[28660]: Disconnected from invalid user erp 180.76.185.183 port 44058 [preauth]
+Jul 27 09:41:58 ip-172-31-25-141 sshd[28665]: Received disconnect from 81.70.146.26 port 35106:11: Bye Bye [preauth]
+Jul 27 09:41:58 ip-172-31-25-141 sshd[28665]: Disconnected from authenticating user root 81.70.146.26 port 35106 [preauth]
+Jul 27 09:43:05 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jul 27 09:43:05 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:43:05 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:43:31 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install gnupg
+Jul 27 09:43:31 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:43:31 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:43:42 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jul 27 09:43:42 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:43:42 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:43:55 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+Jul 27 09:43:55 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:43:55 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:44:07 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+Jul 27 09:44:07 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:44:07 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:44:08 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jul 27 09:44:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:44:10 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:45:09 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 09:45:09 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:45:09 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:45:25 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jul 27 09:45:25 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:45:25 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:45:26 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:45:26 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:45:26 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:45:36 ip-172-31-25-141 sshd[2088]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 09:45:36 ip-172-31-25-141 systemd-logind[500]: Session 4 logged out. Waiting for processes to exit.
+Jul 27 09:45:36 ip-172-31-25-141 systemd-logind[500]: Removed session 4.
+Jul 27 09:45:45 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+Jul 27 09:45:45 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:45:45 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:46:54 ip-172-31-25-141 sshd[29470]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 09:47:04 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/rm /var/lib/mongodb/mongod.lock
+Jul 27 09:47:04 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:47:04 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:47:20 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mongod -–repair
+Jul 27 09:47:20 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:47:20 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:48:33 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:48:33 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:48:33 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:52:12 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service mongod restart
+Jul 27 09:52:12 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:52:12 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:52:17 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:52:17 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:52:17 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:52:34 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chown mongodb:mongodb /tmp/mongodb-27017.sock
+Jul 27 09:52:34 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:52:34 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:52:39 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:52:39 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:52:39 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:52:44 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service mongod restart
+Jul 27 09:52:44 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:52:44 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:52:48 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:52:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:52:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:55:07 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 09:55:07 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 09:55:07 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29645]: Invalid user vagrant from 45.61.185.207 port 38900
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29646]: Invalid user postgres from 45.61.185.207 port 38902
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29642]: Invalid user test from 45.61.185.207 port 38894
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29644]: Invalid user oracle from 45.61.185.207 port 38898
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29644]: Connection closed by invalid user oracle 45.61.185.207 port 38898 [preauth]
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29643]: Connection closed by authenticating user root 45.61.185.207 port 38896 [preauth]
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29641]: Connection closed by authenticating user ubuntu 45.61.185.207 port 38892 [preauth]
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29646]: Connection closed by invalid user postgres 45.61.185.207 port 38902 [preauth]
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29645]: Connection closed by invalid user vagrant 45.61.185.207 port 38900 [preauth]
+Jul 27 09:58:06 ip-172-31-25-141 sshd[29642]: Connection closed by invalid user test 45.61.185.207 port 38894 [preauth]
+Jul 27 10:02:06 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim etc/mongod.conf
+Jul 27 10:02:06 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:06:22 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:06:23 ip-172-31-25-141 sshd[28027]: Received disconnect from 18.206.107.24 port 31851:11: Bye
+Jul 27 10:06:23 ip-172-31-25-141 sshd[28027]: Disconnected from user ubuntu 18.206.107.24 port 31851
+Jul 27 10:06:23 ip-172-31-25-141 sshd[27569]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:06:23 ip-172-31-25-141 systemd-logind[500]: Session 10 logged out. Waiting for processes to exit.
+Jul 27 10:06:23 ip-172-31-25-141 systemd-logind[500]: Removed session 10.
+Jul 27 10:06:31 ip-172-31-25-141 ec2-instance-connect[29818]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:bkU/58fJ03/Arx8jBqMciicCSOK8jnoKTp9X4LvKzGU
+Jul 27 10:06:32 ip-172-31-25-141 ec2-instance-connect[29850]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:bkU/58fJ03/Arx8jBqMciicCSOK8jnoKTp9X4LvKzGU, request-id: 901d6882-a5c0-4206-9b47-cc32e98b6312, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:06:32 ip-172-31-25-141 ec2-instance-connect[29993]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:bkU/58fJ03/Arx8jBqMciicCSOK8jnoKTp9X4LvKzGU
+Jul 27 10:06:32 ip-172-31-25-141 ec2-instance-connect[30025]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:bkU/58fJ03/Arx8jBqMciicCSOK8jnoKTp9X4LvKzGU, request-id: 901d6882-a5c0-4206-9b47-cc32e98b6312, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:06:32 ip-172-31-25-141 sshd[29683]: Accepted publickey for ubuntu from 18.206.107.25 port 23539 ssh2: RSA SHA256:bkU/58fJ03/Arx8jBqMciicCSOK8jnoKTp9X4LvKzGU
+Jul 27 10:06:32 ip-172-31-25-141 sshd[29683]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:06:32 ip-172-31-25-141 systemd-logind[500]: New session 11 of user ubuntu.
+Jul 27 10:06:46 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/mongod.conf
+Jul 27 10:06:46 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:08:08 ip-172-31-25-141 sshd[30139]: Invalid user redmine from 111.231.249.126 port 42626
+Jul 27 10:08:08 ip-172-31-25-141 sshd[30139]: Received disconnect from 111.231.249.126 port 42626:11: Bye Bye [preauth]
+Jul 27 10:08:08 ip-172-31-25-141 sshd[30139]: Disconnected from invalid user redmine 111.231.249.126 port 42626 [preauth]
+Jul 27 10:09:04 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:09:05 ip-172-31-25-141 sshd[30122]: Received disconnect from 18.206.107.25 port 23539:11: Bye
+Jul 27 10:09:05 ip-172-31-25-141 sshd[30122]: Disconnected from user ubuntu 18.206.107.25 port 23539
+Jul 27 10:09:05 ip-172-31-25-141 sshd[29683]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:09:05 ip-172-31-25-141 systemd-logind[500]: Session 11 logged out. Waiting for processes to exit.
+Jul 27 10:09:05 ip-172-31-25-141 systemd-logind[500]: Removed session 11.
+Jul 27 10:09:12 ip-172-31-25-141 ec2-instance-connect[30295]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:4DhKVIQDGi2jt1wSPze9OBXlbzsSlJIy5u/cjrVHx20
+Jul 27 10:09:12 ip-172-31-25-141 ec2-instance-connect[30327]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:4DhKVIQDGi2jt1wSPze9OBXlbzsSlJIy5u/cjrVHx20, request-id: b3f8bcb7-b7a1-4ee6-82fa-a447f1fd183c, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:09:12 ip-172-31-25-141 ec2-instance-connect[30470]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:4DhKVIQDGi2jt1wSPze9OBXlbzsSlJIy5u/cjrVHx20
+Jul 27 10:09:12 ip-172-31-25-141 ec2-instance-connect[30502]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:4DhKVIQDGi2jt1wSPze9OBXlbzsSlJIy5u/cjrVHx20, request-id: b3f8bcb7-b7a1-4ee6-82fa-a447f1fd183c, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:09:13 ip-172-31-25-141 sshd[30160]: Accepted publickey for ubuntu from 18.206.107.24 port 41613 ssh2: RSA SHA256:4DhKVIQDGi2jt1wSPze9OBXlbzsSlJIy5u/cjrVHx20
+Jul 27 10:09:13 ip-172-31-25-141 sshd[30160]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:09:13 ip-172-31-25-141 systemd-logind[500]: New session 12 of user ubuntu.
+Jul 27 10:09:17 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/mongod.conf
+Jul 27 10:09:17 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:09:28 ip-172-31-25-141 sshd[30611]: Received disconnect from 128.199.95.60 port 37870:11: Bye Bye [preauth]
+Jul 27 10:09:28 ip-172-31-25-141 sshd[30611]: Disconnected from authenticating user root 128.199.95.60 port 37870 [preauth]
+Jul 27 10:09:40 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:09:41 ip-172-31-25-141 sshd[30599]: Received disconnect from 18.206.107.24 port 41613:11: Bye
+Jul 27 10:09:41 ip-172-31-25-141 sshd[30599]: Disconnected from user ubuntu 18.206.107.24 port 41613
+Jul 27 10:09:41 ip-172-31-25-141 sshd[30160]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:09:41 ip-172-31-25-141 systemd-logind[500]: Session 12 logged out. Waiting for processes to exit.
+Jul 27 10:09:41 ip-172-31-25-141 systemd-logind[500]: Removed session 12.
+Jul 27 10:09:46 ip-172-31-25-141 ec2-instance-connect[30760]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:+rD54FVo3stoU+IbGMYm5PojHRGvp4aXsJSjRUes7Rs
+Jul 27 10:09:46 ip-172-31-25-141 ec2-instance-connect[30792]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:+rD54FVo3stoU+IbGMYm5PojHRGvp4aXsJSjRUes7Rs, request-id: 283af5b3-48ae-42fa-9fa1-c03b5590bb8d, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:09:47 ip-172-31-25-141 ec2-instance-connect[30965]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:+rD54FVo3stoU+IbGMYm5PojHRGvp4aXsJSjRUes7Rs
+Jul 27 10:09:47 ip-172-31-25-141 ec2-instance-connect[30997]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:+rD54FVo3stoU+IbGMYm5PojHRGvp4aXsJSjRUes7Rs, request-id: 283af5b3-48ae-42fa-9fa1-c03b5590bb8d, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:09:47 ip-172-31-25-141 sshd[30625]: Accepted publickey for ubuntu from 18.206.107.24 port 17001 ssh2: RSA SHA256:+rD54FVo3stoU+IbGMYm5PojHRGvp4aXsJSjRUes7Rs
+Jul 27 10:09:47 ip-172-31-25-141 sshd[30625]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:09:47 ip-172-31-25-141 systemd-logind[500]: New session 13 of user ubuntu.
+Jul 27 10:09:55 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/mongod.conf
+Jul 27 10:09:55 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:12:07 ip-172-31-25-141 sshd[31140]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 10:12:08 ip-172-31-25-141 sshd[31140]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20351 [preauth]
+Jul 27 10:12:44 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:13:10 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart mongod
+Jul 27 10:13:10 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:13:10 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:15:58 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 10:15:58 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:15:58 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:16:24 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chown mongodb:mongodb /tmp/mongodb-27017.sock
+Jul 27 10:16:24 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:16:24 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:16:48 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service mongod restart
+Jul 27 10:16:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:16:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:16:54 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 10:16:54 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:16:54 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:17:01 ip-172-31-25-141 CRON[31276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:17:01 ip-172-31-25-141 CRON[31276]: pam_unix(cron:session): session closed for user root
+Jul 27 10:17:28 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chown mongodb:mongodb /tmp/mongodb-27017.sock
+Jul 27 10:17:28 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:17:28 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:18:26 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service mongod restart
+Jul 27 10:18:26 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:18:27 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:18:35 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 10:18:35 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:18:35 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:19:43 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 10:19:43 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:19:43 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:19:44 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service mongod restart
+Jul 27 10:19:44 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:19:44 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:19:57 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service mongod restart
+Jul 27 10:19:57 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:19:57 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:20:14 ip-172-31-25-141 polkitd(authority=local): Registered Authentication Agent for unix-process:31369:1161882 (system bus name :1.47 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale C.UTF-8)
+Jul 27 10:20:28 ip-172-31-25-141 sshd[31377]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 10:20:38 ip-172-31-25-141 polkit-agent-helper-1[31376]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=ubuntu rhost=  user=ubuntu
+Jul 27 10:20:39 ip-172-31-25-141 polkitd(authority=local): Unregistered Authentication Agent for unix-process:31369:1161882 (system bus name :1.47, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale C.UTF-8) (disconnected from bus)
+Jul 27 10:20:39 ip-172-31-25-141 polkitd(authority=local): Operator of unix-process:31369:1161882 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.48 [<unknown>] (owned by unix-user:ubuntu)
+Jul 27 10:20:42 ip-172-31-25-141 sshd[31378]: Unable to negotiate with 141.98.10.27 port 51208: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 10:20:52 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart mongod
+Jul 27 10:20:52 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:20:52 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:20:54 ip-172-31-25-141 sshd[31401]: Unable to negotiate with 141.98.10.27 port 35548: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 10:20:57 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 10:20:57 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:20:57 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:22:32 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/mongod.conf
+Jul 27 10:22:32 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:23:34 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:23:43 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart mongod
+Jul 27 10:23:43 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:23:43 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:23:46 ip-172-31-25-141 sshd[31477]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 10:23:57 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+Jul 27 10:23:57 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:23:57 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:27:12 ip-172-31-25-141 sshd[31515]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 10:30:00 ip-172-31-25-141 sshd[31519]: Accepted publickey for ubuntu from 27.61.136.226 port 20612 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:30:00 ip-172-31-25-141 sshd[31519]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:30:00 ip-172-31-25-141 systemd-logind[500]: New session 15 of user ubuntu.
+Jul 27 10:31:36 ip-172-31-25-141 sshd[31607]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 10:31:40 ip-172-31-25-141 sshd[31608]: Unable to negotiate with 141.98.10.27 port 45826: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 10:31:50 ip-172-31-25-141 sshd[31610]: Unable to negotiate with 141.98.10.27 port 45590: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 10:33:25 ip-172-31-25-141 sshd[31614]: Accepted publickey for ubuntu from 27.61.136.226 port 20671 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:33:25 ip-172-31-25-141 sshd[31614]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:33:25 ip-172-31-25-141 systemd-logind[500]: New session 16 of user ubuntu.
+Jul 27 10:34:44 ip-172-31-25-141 sshd[31614]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:34:44 ip-172-31-25-141 systemd-logind[500]: Session 16 logged out. Waiting for processes to exit.
+Jul 27 10:34:44 ip-172-31-25-141 systemd-logind[500]: Removed session 16.
+Jul 27 10:39:49 ip-172-31-25-141 ec2-instance-connect[31864]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:JX6WACOBLmLgbyNANY65tj+iBKq1+/lM+H26UsC/PX0
+Jul 27 10:39:49 ip-172-31-25-141 ec2-instance-connect[31896]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:JX6WACOBLmLgbyNANY65tj+iBKq1+/lM+H26UsC/PX0, request-id: 74e5d576-8e27-4e76-91fb-68ace2b00599, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:39:49 ip-172-31-25-141 ec2-instance-connect[32039]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:JX6WACOBLmLgbyNANY65tj+iBKq1+/lM+H26UsC/PX0
+Jul 27 10:39:49 ip-172-31-25-141 ec2-instance-connect[32071]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:JX6WACOBLmLgbyNANY65tj+iBKq1+/lM+H26UsC/PX0, request-id: 74e5d576-8e27-4e76-91fb-68ace2b00599, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:39:49 ip-172-31-25-141 sshd[31729]: Accepted publickey for ubuntu from 18.206.107.24 port 24076 ssh2: RSA SHA256:JX6WACOBLmLgbyNANY65tj+iBKq1+/lM+H26UsC/PX0
+Jul 27 10:39:49 ip-172-31-25-141 sshd[31729]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:39:49 ip-172-31-25-141 systemd-logind[500]: New session 17 of user ubuntu.
+Jul 27 10:40:56 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mkdir ecolive
+Jul 27 10:40:56 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:40:56 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:42:03 ip-172-31-25-141 sshd[32191]: Received disconnect from 18.206.107.24 port 24076:11: Bye
+Jul 27 10:42:03 ip-172-31-25-141 sshd[32191]: Disconnected from user ubuntu 18.206.107.24 port 24076
+Jul 27 10:42:03 ip-172-31-25-141 sshd[31729]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:42:03 ip-172-31-25-141 systemd-logind[500]: Session 17 logged out. Waiting for processes to exit.
+Jul 27 10:42:03 ip-172-31-25-141 systemd-logind[500]: Removed session 17.
+Jul 27 10:42:18 ip-172-31-25-141 ec2-instance-connect[32375]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:7JUfPRZCj1aYexAyPWd+v+a1PzgD3/zcRmEjwUBGerM
+Jul 27 10:42:18 ip-172-31-25-141 ec2-instance-connect[32407]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:7JUfPRZCj1aYexAyPWd+v+a1PzgD3/zcRmEjwUBGerM, request-id: a2a8a412-e60b-49a3-b642-3702f4b25dbd, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:42:18 ip-172-31-25-141 ec2-instance-connect[32550]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:7JUfPRZCj1aYexAyPWd+v+a1PzgD3/zcRmEjwUBGerM
+Jul 27 10:42:18 ip-172-31-25-141 ec2-instance-connect[32582]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:7JUfPRZCj1aYexAyPWd+v+a1PzgD3/zcRmEjwUBGerM, request-id: a2a8a412-e60b-49a3-b642-3702f4b25dbd, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:42:18 ip-172-31-25-141 sshd[32240]: Accepted publickey for ubuntu from 18.206.107.26 port 53888 ssh2: RSA SHA256:7JUfPRZCj1aYexAyPWd+v+a1PzgD3/zcRmEjwUBGerM
+Jul 27 10:42:18 ip-172-31-25-141 sshd[32240]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:42:18 ip-172-31-25-141 systemd-logind[500]: New session 18 of user ubuntu.
+Jul 27 10:42:57 ip-172-31-25-141 sshd[25827]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:42:57 ip-172-31-25-141 systemd-logind[500]: Session 6 logged out. Waiting for processes to exit.
+Jul 27 10:42:57 ip-172-31-25-141 systemd-logind[500]: Removed session 6.
+Jul 27 10:44:38 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/chown -R ubuntu html
+Jul 27 10:44:38 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 10:44:38 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:45:48 ip-172-31-25-141 sshd[32709]: Accepted publickey for ubuntu from 27.61.136.226 port 20523 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:45:48 ip-172-31-25-141 sshd[32709]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:45:48 ip-172-31-25-141 systemd-logind[500]: New session 19 of user ubuntu.
+Jul 27 10:46:38 ip-172-31-25-141 sshd[32801]: Accepted publickey for ubuntu from 27.61.136.226 port 20535 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:46:38 ip-172-31-25-141 sshd[32801]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:46:38 ip-172-31-25-141 systemd-logind[500]: New session 20 of user ubuntu.
+Jul 27 10:46:38 ip-172-31-25-141 sshd[32803]: Accepted publickey for ubuntu from 27.61.136.226 port 20536 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:46:38 ip-172-31-25-141 sshd[32803]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:46:38 ip-172-31-25-141 systemd-logind[500]: New session 21 of user ubuntu.
+Jul 27 10:49:10 ip-172-31-25-141 sshd[32966]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 10:49:57 ip-172-31-25-141 sshd[32968]: Unable to negotiate with 37.0.11.249 port 51244: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 10:50:35 ip-172-31-25-141 sshd[32971]: Unable to negotiate with 37.0.11.249 port 42774: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 10:53:12 ip-172-31-25-141 sshd[32801]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:53:12 ip-172-31-25-141 systemd-logind[500]: Session 20 logged out. Waiting for processes to exit.
+Jul 27 10:53:12 ip-172-31-25-141 systemd-logind[500]: Removed session 20.
+Jul 27 10:53:13 ip-172-31-25-141 sshd[32803]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 10:53:13 ip-172-31-25-141 systemd-logind[500]: Session 21 logged out. Waiting for processes to exit.
+Jul 27 10:53:13 ip-172-31-25-141 systemd-logind[500]: Removed session 21.
+Jul 27 10:53:27 ip-172-31-25-141 sshd[32995]: Accepted publickey for ubuntu from 27.61.136.226 port 20693 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:53:27 ip-172-31-25-141 sshd[32995]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:53:27 ip-172-31-25-141 systemd-logind[500]: New session 22 of user ubuntu.
+Jul 27 10:58:06 ip-172-31-25-141 sshd[33092]: Accepted publickey for ubuntu from 27.61.136.226 port 20710 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:58:06 ip-172-31-25-141 sshd[33092]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:58:06 ip-172-31-25-141 sshd[33091]: Accepted publickey for ubuntu from 27.61.136.226 port 20709 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 10:58:06 ip-172-31-25-141 systemd-logind[500]: New session 23 of user ubuntu.
+Jul 27 10:58:06 ip-172-31-25-141 sshd[33091]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:58:06 ip-172-31-25-141 systemd-logind[500]: New session 24 of user ubuntu.
+Jul 27 10:58:31 ip-172-31-25-141 ec2-instance-connect[33388]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:28YtdqcwVFsNfHjlWSIb0ACucDiuP+n3Pnxto32jR7M
+Jul 27 10:58:31 ip-172-31-25-141 ec2-instance-connect[33420]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:28YtdqcwVFsNfHjlWSIb0ACucDiuP+n3Pnxto32jR7M, request-id: 59b398b3-70e3-4ec5-b9dc-01d26850bffe, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:58:31 ip-172-31-25-141 ec2-instance-connect[33563]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:28YtdqcwVFsNfHjlWSIb0ACucDiuP+n3Pnxto32jR7M
+Jul 27 10:58:31 ip-172-31-25-141 ec2-instance-connect[33595]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:28YtdqcwVFsNfHjlWSIb0ACucDiuP+n3Pnxto32jR7M, request-id: 59b398b3-70e3-4ec5-b9dc-01d26850bffe, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 10:58:31 ip-172-31-25-141 sshd[33253]: Accepted publickey for ubuntu from 18.206.107.25 port 13552 ssh2: RSA SHA256:28YtdqcwVFsNfHjlWSIb0ACucDiuP+n3Pnxto32jR7M
+Jul 27 10:58:31 ip-172-31-25-141 sshd[33253]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 10:58:31 ip-172-31-25-141 systemd-logind[500]: New session 25 of user ubuntu.
+Jul 27 11:00:00 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/2 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/npm install pm2@latest -g
+Jul 27 11:00:00 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:00:08 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:00:10 ip-172-31-25-141 sshd[33091]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:00:10 ip-172-31-25-141 systemd-logind[500]: Session 24 logged out. Waiting for processes to exit.
+Jul 27 11:00:10 ip-172-31-25-141 systemd-logind[500]: Removed session 24.
+Jul 27 11:00:13 ip-172-31-25-141 sshd[33092]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:00:13 ip-172-31-25-141 systemd-logind[500]: Session 23 logged out. Waiting for processes to exit.
+Jul 27 11:00:13 ip-172-31-25-141 systemd-logind[500]: Removed session 23.
+Jul 27 11:00:30 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/2 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/npm install
+Jul 27 11:00:30 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:00:47 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:01:42 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/2 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/npm install pm2@latest -g
+Jul 27 11:01:42 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:01:46 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:01:56 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/2 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/npm install pm2@latest -g
+Jul 27 11:01:56 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:02:01 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:10:01 ip-172-31-25-141 sshd[33839]: Connection closed by 121.157.23.122 port 44878 [preauth]
+Jul 27 11:13:38 ip-172-31-25-141 sshd[33845]: Accepted publickey for ubuntu from 27.61.136.226 port 20392 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 11:13:38 ip-172-31-25-141 sshd[33845]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:13:38 ip-172-31-25-141 systemd-logind[500]: New session 26 of user ubuntu.
+Jul 27 11:14:19 ip-172-31-25-141 ec2-instance-connect[34069]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:/Kn5FGqukXNqlxgvXVyo0sw9cqtNpB3N7FUwaJsCswM
+Jul 27 11:14:19 ip-172-31-25-141 ec2-instance-connect[34101]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:/Kn5FGqukXNqlxgvXVyo0sw9cqtNpB3N7FUwaJsCswM, request-id: 9d61d2d8-f40c-42b3-8a20-fe9d20908870, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:14:19 ip-172-31-25-141 ec2-instance-connect[34244]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:/Kn5FGqukXNqlxgvXVyo0sw9cqtNpB3N7FUwaJsCswM
+Jul 27 11:14:19 ip-172-31-25-141 ec2-instance-connect[34276]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:/Kn5FGqukXNqlxgvXVyo0sw9cqtNpB3N7FUwaJsCswM, request-id: 9d61d2d8-f40c-42b3-8a20-fe9d20908870, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:14:20 ip-172-31-25-141 sshd[33934]: Accepted publickey for ubuntu from 18.206.107.24 port 53374 ssh2: RSA SHA256:/Kn5FGqukXNqlxgvXVyo0sw9cqtNpB3N7FUwaJsCswM
+Jul 27 11:14:20 ip-172-31-25-141 sshd[33934]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:14:20 ip-172-31-25-141 systemd-logind[500]: New session 27 of user ubuntu.
+Jul 27 11:14:49 ip-172-31-25-141 sshd[33845]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:14:49 ip-172-31-25-141 systemd-logind[500]: Session 26 logged out. Waiting for processes to exit.
+Jul 27 11:14:49 ip-172-31-25-141 systemd-logind[500]: Removed session 26.
+Jul 27 11:17:01 ip-172-31-25-141 CRON[34394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:17:01 ip-172-31-25-141 CRON[34394]: pam_unix(cron:session): session closed for user root
+Jul 27 11:18:11 ip-172-31-25-141 sshd[34398]: Received disconnect from 182.61.147.252 port 60282:11: Bye Bye [preauth]
+Jul 27 11:18:11 ip-172-31-25-141 sshd[34398]: Disconnected from authenticating user root 182.61.147.252 port 60282 [preauth]
+Jul 27 11:23:06 ip-172-31-25-141 sshd[34471]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 11:23:10 ip-172-31-25-141 sshd[34471]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20676 [preauth]
+Jul 27 11:23:17 ip-172-31-25-141 sshd[34367]: Received disconnect from 18.206.107.24 port 53374:11: Bye
+Jul 27 11:23:17 ip-172-31-25-141 sshd[34367]: Disconnected from user ubuntu 18.206.107.24 port 53374
+Jul 27 11:23:17 ip-172-31-25-141 sshd[33934]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:23:17 ip-172-31-25-141 systemd-logind[500]: Session 27 logged out. Waiting for processes to exit.
+Jul 27 11:23:17 ip-172-31-25-141 systemd-logind[500]: Removed session 27.
+Jul 27 11:23:40 ip-172-31-25-141 ec2-instance-connect[34643]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:QcVUe5QFqoo2zay/PcbTVuEDwezumIK1ppfk2jRuS34
+Jul 27 11:23:40 ip-172-31-25-141 ec2-instance-connect[34675]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:QcVUe5QFqoo2zay/PcbTVuEDwezumIK1ppfk2jRuS34, request-id: 5832cf9d-0514-4d68-b412-46593f3858dd, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:23:41 ip-172-31-25-141 ec2-instance-connect[34818]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:QcVUe5QFqoo2zay/PcbTVuEDwezumIK1ppfk2jRuS34
+Jul 27 11:23:41 ip-172-31-25-141 ec2-instance-connect[34850]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:QcVUe5QFqoo2zay/PcbTVuEDwezumIK1ppfk2jRuS34, request-id: 5832cf9d-0514-4d68-b412-46593f3858dd, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:23:41 ip-172-31-25-141 sshd[34508]: Accepted publickey for ubuntu from 18.206.107.24 port 2635 ssh2: RSA SHA256:QcVUe5QFqoo2zay/PcbTVuEDwezumIK1ppfk2jRuS34
+Jul 27 11:23:41 ip-172-31-25-141 sshd[34508]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:23:41 ip-172-31-25-141 systemd-logind[500]: New session 29 of user ubuntu.
+Jul 27 11:24:18 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/3 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/npm install
+Jul 27 11:24:18 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:24:20 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:24:42 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/3 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/npm install
+Jul 27 11:24:42 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:24:48 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:29:41 ip-172-31-25-141 sshd[35025]: Received disconnect from 106.51.71.157 port 47278:11: Bye Bye [preauth]
+Jul 27 11:29:41 ip-172-31-25-141 sshd[35025]: Disconnected from authenticating user root 106.51.71.157 port 47278 [preauth]
+Jul 27 11:29:48 ip-172-31-25-141 sshd[35027]: Received disconnect from 186.4.222.45 port 43684:11: Bye Bye [preauth]
+Jul 27 11:29:48 ip-172-31-25-141 sshd[35027]: Disconnected from authenticating user root 186.4.222.45 port 43684 [preauth]
+Jul 27 11:32:56 ip-172-31-25-141 sshd[35032]: Accepted publickey for ubuntu from 27.61.136.226 port 20553 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 11:32:56 ip-172-31-25-141 sshd[35032]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:32:56 ip-172-31-25-141 systemd-logind[500]: New session 30 of user ubuntu.
+Jul 27 11:36:11 ip-172-31-25-141 ec2-instance-connect[35263]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:qIkgaSEYXEq9RfpHih4SXueOCw+WR+/A5HfY4iDaoqk
+Jul 27 11:36:12 ip-172-31-25-141 ec2-instance-connect[35295]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:qIkgaSEYXEq9RfpHih4SXueOCw+WR+/A5HfY4iDaoqk, request-id: 7d7d4a96-8c6c-4582-8971-057c0bfebb2c, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:36:12 ip-172-31-25-141 ec2-instance-connect[35438]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:qIkgaSEYXEq9RfpHih4SXueOCw+WR+/A5HfY4iDaoqk
+Jul 27 11:36:12 ip-172-31-25-141 ec2-instance-connect[35470]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:qIkgaSEYXEq9RfpHih4SXueOCw+WR+/A5HfY4iDaoqk, request-id: 7d7d4a96-8c6c-4582-8971-057c0bfebb2c, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:36:12 ip-172-31-25-141 sshd[35128]: Accepted publickey for ubuntu from 18.206.107.24 port 46486 ssh2: RSA SHA256:qIkgaSEYXEq9RfpHih4SXueOCw+WR+/A5HfY4iDaoqk
+Jul 27 11:36:12 ip-172-31-25-141 sshd[35128]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:36:12 ip-172-31-25-141 systemd-logind[500]: New session 31 of user ubuntu.
+Jul 27 11:36:58 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/4 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/chown -R ubuntu html
+Jul 27 11:36:58 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:36:58 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:38:21 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/4 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/npm install
+Jul 27 11:38:21 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:38:27 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:38:33 ip-172-31-25-141 sshd[35646]: error: kex_exchange_identification: Connection closed by remote host
+Jul 27 11:39:00 ip-172-31-25-141 sshd[35647]: Unable to negotiate with 141.98.10.29 port 36110: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 11:39:04 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/4 ; PWD=/var/www/html/ecolive ; USER=root ; COMMAND=/usr/bin/chown -R ubuntu ecolive
+Jul 27 11:39:04 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:39:04 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:39:05 ip-172-31-25-141 sshd[35649]: Received disconnect from 211.159.183.117 port 49388:11: Bye Bye [preauth]
+Jul 27 11:39:05 ip-172-31-25-141 sshd[35649]: Disconnected from authenticating user root 211.159.183.117 port 49388 [preauth]
+Jul 27 11:39:10 ip-172-31-25-141 sshd[35664]: Unable to negotiate with 141.98.10.29 port 35912: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 11:39:21 ip-172-31-25-141 sshd[35666]: Unable to negotiate with 141.98.10.29 port 35810: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jul 27 11:40:20 ip-172-31-25-141 sshd[35564]: Received disconnect from 18.206.107.24 port 46486:11: Bye
+Jul 27 11:40:20 ip-172-31-25-141 sshd[35564]: Disconnected from user ubuntu 18.206.107.24 port 46486
+Jul 27 11:40:20 ip-172-31-25-141 sshd[35128]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:40:20 ip-172-31-25-141 systemd-logind[500]: Session 31 logged out. Waiting for processes to exit.
+Jul 27 11:40:20 ip-172-31-25-141 systemd-logind[500]: Removed session 31.
+Jul 27 11:40:43 ip-172-31-25-141 ec2-instance-connect[35827]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:/p8Znet5bu/vp9qTncpW5BdrD0AI4LZjbj+OZ9BZmU8
+Jul 27 11:40:43 ip-172-31-25-141 ec2-instance-connect[35859]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:/p8Znet5bu/vp9qTncpW5BdrD0AI4LZjbj+OZ9BZmU8, request-id: 4eb4d6c6-ea27-4d15-9226-0399918a2423, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:40:44 ip-172-31-25-141 ec2-instance-connect[36002]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:/p8Znet5bu/vp9qTncpW5BdrD0AI4LZjbj+OZ9BZmU8
+Jul 27 11:40:44 ip-172-31-25-141 ec2-instance-connect[36034]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:/p8Znet5bu/vp9qTncpW5BdrD0AI4LZjbj+OZ9BZmU8, request-id: 4eb4d6c6-ea27-4d15-9226-0399918a2423, for IAM principal: arn:aws:iam::569857197401:root
+Jul 27 11:40:44 ip-172-31-25-141 sshd[35692]: Accepted publickey for ubuntu from 18.206.107.26 port 48637 ssh2: RSA SHA256:/p8Znet5bu/vp9qTncpW5BdrD0AI4LZjbj+OZ9BZmU8
+Jul 27 11:40:44 ip-172-31-25-141 sshd[35692]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:40:44 ip-172-31-25-141 systemd-logind[500]: New session 32 of user ubuntu.
+Jul 27 11:41:09 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/4 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/mkdir ecolive
+Jul 27 11:41:09 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:41:09 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:43:25 ip-172-31-25-141 sudo:   ubuntu : TTY=pts/4 ; PWD=/var/www/ecolive ; USER=root ; COMMAND=/usr/bin/git -version
+Jul 27 11:43:25 ip-172-31-25-141 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 27 11:43:25 ip-172-31-25-141 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:45:14 ip-172-31-25-141 sshd[36176]: Received disconnect from 189.15.237.254 port 35059:11: Bye Bye [preauth]
+Jul 27 11:45:14 ip-172-31-25-141 sshd[36176]: Disconnected from authenticating user root 189.15.237.254 port 35059 [preauth]
+Jul 27 11:47:29 ip-172-31-25-141 sshd[36182]: Invalid user user from 186.145.254.158 port 39856
+Jul 27 11:47:29 ip-172-31-25-141 sshd[36182]: Received disconnect from 186.145.254.158 port 39856:11: Bye Bye [preauth]
+Jul 27 11:47:29 ip-172-31-25-141 sshd[36182]: Disconnected from invalid user user 186.145.254.158 port 39856 [preauth]
+Jul 27 11:47:32 ip-172-31-25-141 sshd[36180]: Accepted publickey for ubuntu from 27.61.136.226 port 20547 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 11:47:32 ip-172-31-25-141 sshd[36180]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:47:32 ip-172-31-25-141 systemd-logind[500]: New session 33 of user ubuntu.
+Jul 27 11:47:32 ip-172-31-25-141 sshd[36184]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 11:47:43 ip-172-31-25-141 sshd[36184]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20548 [preauth]
+Jul 27 11:48:23 ip-172-31-25-141 sshd[36288]: Accepted publickey for ubuntu from 27.61.136.226 port 20561 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 11:48:23 ip-172-31-25-141 sshd[36288]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:48:23 ip-172-31-25-141 systemd-logind[500]: New session 34 of user ubuntu.
+Jul 27 11:48:25 ip-172-31-25-141 sshd[36290]: Accepted publickey for ubuntu from 27.61.136.226 port 20562 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 11:48:25 ip-172-31-25-141 sshd[36290]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:48:25 ip-172-31-25-141 systemd-logind[500]: New session 35 of user ubuntu.
+Jul 27 11:49:38 ip-172-31-25-141 sshd[36290]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:49:38 ip-172-31-25-141 systemd-logind[500]: Session 35 logged out. Waiting for processes to exit.
+Jul 27 11:49:38 ip-172-31-25-141 systemd-logind[500]: Removed session 35.
+Jul 27 11:49:38 ip-172-31-25-141 sshd[36288]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:49:38 ip-172-31-25-141 systemd-logind[500]: Session 34 logged out. Waiting for processes to exit.
+Jul 27 11:49:38 ip-172-31-25-141 systemd-logind[500]: Removed session 34.
+Jul 27 11:49:38 ip-172-31-25-141 sshd[36180]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 11:49:38 ip-172-31-25-141 systemd-logind[500]: Session 33 logged out. Waiting for processes to exit.
+Jul 27 11:49:38 ip-172-31-25-141 systemd-logind[500]: Removed session 33.
+Jul 27 11:50:24 ip-172-31-25-141 sshd[36468]: Accepted publickey for ubuntu from 27.61.136.226 port 20567 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 11:50:24 ip-172-31-25-141 sshd[36468]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 11:50:24 ip-172-31-25-141 systemd-logind[500]: New session 36 of user ubuntu.
+Jul 27 11:54:36 ip-172-31-25-141 sshd[36557]: Connection closed by 192.35.168.80 port 16904 [preauth]
+Jul 27 11:59:22 ip-172-31-25-141 sshd[36564]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 11:59:25 ip-172-31-25-141 sshd[36564]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20622 [preauth]
+Jul 27 12:04:28 ip-172-31-25-141 sshd[36587]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 12:04:32 ip-172-31-25-141 sshd[36587]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20300 [preauth]
+Jul 27 12:07:34 ip-172-31-25-141 sshd[36607]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:L02KFZEXzIk8ZGRuckGn/l0nPTAKdP/D/84t1MPjsU4 failed, status 22
+Jul 27 12:07:49 ip-172-31-25-141 sshd[36607]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20337 [preauth]
+Jul 27 12:15:46 ip-172-31-25-141 sshd[36633]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:iT2qNjdefpzJjn/Dn2/jS/amaBpAAqT7i7pcDZ3a7uw failed, status 22
+Jul 27 12:17:01 ip-172-31-25-141 CRON[36651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:17:01 ip-172-31-25-141 CRON[36651]: pam_unix(cron:session): session closed for user root
+Jul 27 12:17:38 ip-172-31-25-141 sshd[36633]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20714 [preauth]
+Jul 27 12:18:03 ip-172-31-25-141 sshd[36655]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:L02KFZEXzIk8ZGRuckGn/l0nPTAKdP/D/84t1MPjsU4 failed, status 22
+Jul 27 12:18:06 ip-172-31-25-141 sshd[36655]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20424 [preauth]
+Jul 27 12:19:45 ip-172-31-25-141 sshd[36672]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:IFHs/g9ioL9/ByCaWbWNwSlEdoOSGA1nfldeCP9yOHM failed, status 22
+Jul 27 12:19:47 ip-172-31-25-141 sshd[36672]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20439 [preauth]
+Jul 27 12:20:51 ip-172-31-25-141 sshd[36689]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20445 [preauth]
+Jul 27 12:22:32 ip-172-31-25-141 sshd[36695]: Connection closed by authenticating user ubuntu 27.61.136.226 port 20451 [preauth]
+Jul 27 12:24:40 ip-172-31-25-141 sshd[36699]: AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys ubuntu SHA256:bAvMOnsaOOIh5utfN9P7nOFav9zKIPs/dvddr8V3M/M failed, status 22
+Jul 27 12:26:10 ip-172-31-25-141 sshd[30625]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 27 12:26:10 ip-172-31-25-141 systemd-logind[500]: Session 13 logged out. Waiting for processes to exit.
+Jul 27 12:26:10 ip-172-31-25-141 systemd-logind[500]: Removed session 13.
+Jul 27 12:26:26 ip-172-31-25-141 sshd[36730]: Accepted publickey for ubuntu from 27.61.136.226 port 20617 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 12:26:26 ip-172-31-25-141 sshd[36730]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 12:26:26 ip-172-31-25-141 systemd-logind[500]: New session 38 of user ubuntu.
+Jul 27 12:26:52 ip-172-31-25-141 sshd[36818]: Accepted publickey for ubuntu from 27.61.136.226 port 20626 ssh2: RSA SHA256:MndadwU9su4tFA+EgM7U0fPWVgTtqIyr9xCU1q5+ces
+Jul 27 12:26:52 ip-172-31-25-141 sshd[36818]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 27 12:26:52 ip-172-31-25-141 systemd-logind[500]: New session 39 of user ubuntu.
